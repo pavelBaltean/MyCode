@@ -1,6 +1,6 @@
 const request = require('request');
  
-function move(){  //добавить параметры и конвертировать в сек в милисекунды
+function move(){
    let count=0;
    let id = setInterval(reqLink,1000);
    function reqLink(){
@@ -21,8 +21,7 @@ function move(){  //добавить параметры и конвертиро�
   }
    }
 }
-
-
+ move();
 
 
 
@@ -43,15 +42,3 @@ let reqOnLink =() => {
     
   });
 };
-
-
-
-
-
-
-
-
-
-
-
-//http://localhost:8080
